@@ -7,7 +7,7 @@
       "registry": "https://registry.npmjs.org",
       "verifyAccess": false,
       "npmClient": "npm",
-      "allowBranch": "main",
+      "allowBranch": "master",
       "ignoreChanges": ["*.md", "*/test/*"]
     }
   },
