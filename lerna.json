@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org",
+      "verifyAccess": false,
+      "npmClient": "npm",
+      "allowBranch": "main",
+      "ignoreChanges": ["*.md", "*/test/*"]
+    }
+  },
+  "npmClient": "npm",
+  "packages": ["packages/*"],
+  "useNx": true,
+  "version": "independent"
+}
